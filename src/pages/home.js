@@ -15,7 +15,7 @@ import Preloader from "../layout/Preloader";
 import ScrollToTopBtn from '../layout/ScrollToTop';
 import { createGlobalStyle } from 'styled-components';
 
-const image1 ="./img/background/hand-rip-desktop.jpg";
+const image1 ="./img/background/hand-rip-desktop-2.jpg";
 
 const GlobalStyles = createGlobalStyle`
   .navbar-brand .imginit{

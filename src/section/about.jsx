@@ -102,7 +102,7 @@ const hero = () => {
 				          );
 				        }}
 				      </AnimatedProgressProvider>
-				      <h4 className="mt-2">Adobe</h4>
+				      <h4 className="mt-2">Adobe Premiere</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"

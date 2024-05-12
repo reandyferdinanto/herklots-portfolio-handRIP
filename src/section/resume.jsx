@@ -39,10 +39,10 @@ const hero = () => {
                                 </p>
                             </li>
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2008 - 2010</h3>
+                                <h3 className="d_timeline-title">2022 - 2023</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Graphic Designer</span>
-                                	<span className="d_company">Kyros Studio</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title"> Deputi Coordinator Plaza Desain Emotia - Binus University</span>
+                                	<span className="d_company">Student Activity Unit</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
                                 </p>
                             </li>
                         </ul>
@@ -57,17 +57,17 @@ const hero = () => {
                         <h3 className="s_border">Education</h3>
                         <ul className="d_timeline">
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2004 - 2008</h3>
+                                <h3 className="d_timeline-title">2020 - present</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Master in Design</span>
-                                	<span className="d_company">New York University</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Binus University</span>
+                                	<span className="d_company"> Visual Communication Design, New Media</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
                                 </p>
                             </li>
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2004 - 2008</h3>
+                                <h3 className="d_timeline-title">2017 - 2020</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Bachelor of Arts</span>
-                                	<span className="d_company">University of London</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Student</span>
+                                	<span className="d_company">Lab School Cibubur</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
                                 </p>
                             </li>
                             <li className="d_timeline-item">
