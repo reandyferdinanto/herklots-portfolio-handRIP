@@ -70,13 +70,13 @@ const hero = () => {
                                 	<span className="d_company">Lab School Cibubur</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
                                 </p>
                             </li>
-                            <li className="d_timeline-item">
+                            {/* <li className="d_timeline-item">
                                 <h3 className="d_timeline-title">2006 - 2004</h3>
                                 <p className="d_timeline-text">
                                 	<span className="d_title">Artist of College</span>
                                 	<span className="d_company">University of Sydney</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
                                 </p>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

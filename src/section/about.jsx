@@ -102,7 +102,7 @@ const hero = () => {
 				          );
 				        }}
 				      </AnimatedProgressProvider>
-				      <h4 className="mt-2">Adobe Premiere</h4>
+				      <h4 className="mt-2">Adobe After Effect</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"
@@ -132,7 +132,7 @@ const hero = () => {
 				          );
 				        }}
 				      </AnimatedProgressProvider>
-				      <h4 className="mt-2">Canva</h4>
+				      <h4 className="mt-2">da Vinci Resolve</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"
@@ -162,7 +162,7 @@ const hero = () => {
 				          );
 				        }}
 				      </AnimatedProgressProvider>
-				      <h4 className="mt-2">Video Editor</h4>
+				      <h4 className="mt-2">Adobe Ilustrator</h4>
                 </div>
 			</div>
 		</div>

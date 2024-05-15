@@ -39,7 +39,7 @@ function home() {
 
       {/* HERO */}
       <section id="hero-area" className="bg-bottom py-0">
-        <Parallax bgImage={image1} strength={300}>
+        <Parallax bgImage={image1} strength={300} blur={{ min: -15, max: 10 }}>
         <Hero/>
         <Link smooth spy to="about">
           <span className="mouse transition" id="fly">
