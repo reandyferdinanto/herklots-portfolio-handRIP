@@ -51,6 +51,13 @@ const hero = () => {
                             <li><span>German</span>Hamburg, Dortmund</li> */}
                         </ul>
                     </div>
+                    <div className="herklots-logo">
+                        <img 
+                            className="herklots-logo"
+                            src="./img/logo-herklots.svg" 
+                            alt="logo-herklots" 
+                        />
+                    </div>
                 </div>
             </div>
         </div>

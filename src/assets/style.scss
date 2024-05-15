@@ -1299,6 +1299,11 @@ video.pop {
   height: auto;
 }
 
+.herklots-logo {
+  height: 300px;
+  width: 300px;
+}
+
 /*** media all ***/
 @media (min-width: 1400px) {
 
@@ -1386,6 +1391,10 @@ video.pop {
   #hero-area .h1_big{
     font-size: 150% !important;
     line-height: normal !important;
+  }
+  .herklots-logo {
+    width: 200px;
+    height: 200px;
   }
 }
 
