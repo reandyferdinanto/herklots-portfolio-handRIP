@@ -271,7 +271,7 @@ const Gallery= function() {
                 {lighbx2 && ( 
                   <div className="LightboxGal">
                     <div className="closeGal">
-                        <button className="button-close" onClick={handleBtnClickclose3}></button>
+                        <button className="button-close" onClick={handleBtnClickclose2}></button>
                     </div>
                     <div className="v-center w-100">
                       <div className="mainLightbox container">
