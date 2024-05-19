@@ -12,40 +12,40 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const Gallery= function() {
-    /* lightbox1 */
-    const [lighbx, setlighbx] = React.useState(false);
-    const handleBtnClick = (): void => {
-      setlighbx(!lighbx);
-      var x = document.getElementsByTagName("BODY")[0];
-      x.style.overflow = "hidden";
-    };
-    const handleBtnClickclose = (): void => {
-      setlighbx(!lighbx);
-      var x = document.getElementsByTagName("BODY")[0];
+        /* lightbox1 */
+        const [lighbx, setlighbx] = React.useState(false);
+        const handleBtnClick = () => {
+            setlighbx(!lighbx);
+            var x = document.getElementsByTagName("BODY")[0];
+            x.style.overflow = "hidden";
+        };
+        const handleBtnClickclose = () => {
+            setlighbx(!lighbx);
+            var x = document.getElementsByTagName("BODY")[0];
       x.style.overflow = "auto";
     };
 
     /* lightbox2 */
     const [lighbx1, setlighbx1] = React.useState(false);
-    const handleBtnClick1 = (): void => {
-      setlighbx1(!lighbx1);
-      var x = document.getElementsByTagName("BODY")[0];
-      x.style.overflow = "hidden";
+    const handleBtnClick1 = () => {
+        setlighbx1(!lighbx1);
+        var x = document.getElementsByTagName("BODY")[0];
+        x.style.overflow = "hidden";
     };
-    const handleBtnClickclose1 = (): void => {
-      setlighbx1(!lighbx1);
+    const handleBtnClickclose1 = () => {
+        setlighbx1(!lighbx1);
       var x = document.getElementsByTagName("BODY")[0];
       x.style.overflow = "auto";
     };
 
     /* lightbox2 */
     const [lighbx2, setlighbx2] = React.useState(false);
-    const handleBtnClick2 = (): void => {
+    const handleBtnClick2 = () => {
       setlighbx2(!lighbx2);
       var x = document.getElementsByTagName("BODY")[0];
       x.style.overflow = "hidden";
     };
-    const handleBtnClickclose2 = (): void => {
+    const handleBtnClickclose2 = () => {
       setlighbx2(!lighbx2);
       var x = document.getElementsByTagName("BODY")[0];
       x.style.overflow = "auto";
@@ -70,7 +70,7 @@ const Gallery= function() {
                                 <h3>Archi Interior Design</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/1.jpg" alt="gallery"/>
+                            <video  src="./img/gallery/ineke-hans-pf.mp4" autoPlay loop muted playsInline preload="auto" alt="portfolio-1" style={{ height: '250px' }}/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick1}
@@ -79,10 +79,10 @@ const Gallery= function() {
                         > 
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Self Hosted Video</h3>
+                                <h3>My beautiful flower, 20</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/2.jpg" alt="gallery"/>
+                            <img src="./img/gallery/my-pf.jpg"  alt="My beautiful flower, 20"/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick2}
@@ -91,10 +91,10 @@ const Gallery= function() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Justica Lawyer</h3>
+                                <h3>Jakarta Town Festival</h3>
                                 <h5 className="d-tag">website</h5>
                             </div>
-                            <img src="./img/gallery/3.jpg" alt="gallery"/>
+                            <video src="./img/gallery/jakarta-pf.mp4" autoPlay loop muted playsInline preload="auto" alt="portfolio-1" style={{ height: '500px' }}/>
                         </div>
                     </div>
                     <div className="col-lg-4 image-element-class de_modal" onClick={handleBtnClick}
