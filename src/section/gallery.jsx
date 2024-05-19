@@ -59,7 +59,7 @@ const Gallery= function() {
         x.style.overflow = "hidden";
     };
     const handleBtnClickclose3 = () => {
-        setlighbx2(!lighbx2);
+        setlighbx3(!lighbx3);
         var x = document.getElementsByTagName("BODY")[0];
         x.style.overflow = "auto";
     };
