@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax } from "react-parallax";
-import CountUp from "react-countup";
+// import CountUp from "react-countup";
 import AOS from 'aos';
 AOS.init();
 
