@@ -89,7 +89,7 @@ function home() {
           <div className="de_social-icons">
               <span className="buton"><i className="fa fa-facebook fa-lg"></i></span>
               <span className="buton"><i className="fa fa-twitter fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-instagram fa-lg"></i></span>
+              <span className="buton"><a className="fa fa-instagram fa-lg" href="https://www.instagram.com/herklotsharold/?hl=en" style={{ color: 'inherit', textDecoration: 'none' }} aria-label="Instagram Profile"></a></span>
           </div>
           <span>Follow Me</span>
       </div>

@@ -11,7 +11,7 @@ const Mblockquote = () => {
         <div className="section bg-top bg-bottom py-0">
           <Parallax className="py-5" bgImage={image1} strength={300}>  
           <div className="py-5 position-relative">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row">
                         <div className="col-md-3">
                             <div className="de_count text-center">
@@ -91,7 +91,7 @@ const Mblockquote = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </Parallax>
         </div>

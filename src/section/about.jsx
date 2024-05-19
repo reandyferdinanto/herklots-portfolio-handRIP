@@ -37,8 +37,8 @@ const hero = () => {
                     data-aos-easing="ease"
                     data-aos-once="true"
 	            	>
-					<p>Graphic Designer with 2 years of experience in the industry</p>
-	            	<p>My work has spanned to 3D artist, Video Editing, and Videography. My passion is to make things better
+					<p className='h6 fs-md-5'>Graphic Designer with 2 years of experience in the industry</p>
+	            	<p className='h5 fs-md-4'>My work has spanned to 3D artist, Video Editing, and Videography. My passion is to make things better
               		efficiently and as fast as possible with little mistakes.
                      </p>
 	            </div>
