@@ -24,8 +24,8 @@ const Mblockquote = () => {
                             <div className="spacer-double"></div>
                             <blockquote className="q-big">
                                 <i className="d-big icon_quotations"></i>
-                                Do more than is required. What is the distance between someone who achieves their goals consistently and those who spend their lives and careers merely following? The extra mile.
-                                <span className="d-quote-by">Kyros Noriaki</span>
+                                Creativity is intelligence having fun.
+                                <span className="d-quote-by">Albert Einstein</span>
                             </blockquote>
                             <div className="spacer-double"></div>
                             <div className="spacer-double"></div>

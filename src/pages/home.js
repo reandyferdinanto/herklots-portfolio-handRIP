@@ -8,7 +8,7 @@ import Whatido from '../section/whatido';
 import Gallery from '../section/gallery';
 import Resume from '../section/resume';
 import Counter from '../section/counter';
-import Blog from '../section/blog';
+// import Blog from '../section/blog';
 import Contact from '../section/contact';
 import Footer from '../section/footer';
 import Preloader from "../layout/Preloader";
@@ -72,9 +72,9 @@ function home() {
       </section>
 
       {/* Gallery */}
-      <section id="blog" className="pb-0">
+      {/* <section id="blog" className="pb-0">
         <Blog/>
-      </section>
+      </section> */}
 
       {/* contact */}
       <section id="contact" className="pb-0">
@@ -87,9 +87,9 @@ function home() {
 
       <div className="float-text">
           <div className="de_social-icons">
-              <span className="buton"><i className="fa fa-facebook fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-twitter fa-lg"></i></span>
-              <span className="buton"><a className="fa fa-instagram fa-lg" href="https://www.instagram.com/herklotsharold/?hl=en" style={{ color: 'inherit', textDecoration: 'none' }} aria-label="Instagram Profile"></a></span>
+              {/* <span className="buton"><i className="fa fa-facebook fa-lg"></i></span> */}
+              <span className="buton"><a className="fa fa-instagram fa-lg" target="blank" href="https://www.instagram.com/herklotsharold/?hl=en" style={{ color: 'inherit', textDecoration: 'none' }} aria-label="Instagram Profile"></a></span>
+              <span className="buton"><a className="fa fa-linkedin" target="blank" href="https://www.linkedin.com/in/carbonite/" style={{ color: 'inherit', textDecoration: 'none' }} aria-label="LinkedIn Profile"></a></span>
           </div>
           <span>Follow Me</span>
       </div>

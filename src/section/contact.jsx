@@ -14,7 +14,7 @@ const contact = () => {
     const failed = document.getElementById("failed");
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_csfdEZiA', e.target, 'user_zu7p2b3lDibMCDutH5hif')
+    emailjs.sendForm('gmail', 'template_9p74jwh', e.target, 'service_2kvruth')
       .then((result) => {
           console.log(result.text);
           success.classList.add('show');
@@ -95,7 +95,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Email Me</h6>
-                                    <p>contact@kyrosnoriaki.com</p>
+                                    <p>haroldsdesigns@gmail.com</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -106,7 +106,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Call Me</h6>
-                                    <p>+1 700 333 92 96</p>
+                                    <p>+62 821 6628 1480</p>
                                 </div>
                                 <div className="col-md-4"
                                     data-aos="fade-up"
@@ -117,7 +117,7 @@ const contact = () => {
                                     >
                                     <div className="wm-1"></div>
                                     <h6>Address</h6>
-                                    <p>Collins Street West, Louisiana, Bayerfurt, USA</p>
+                                    <p>Ujung Aspal, Jatiranggon, Bekasi, Indonesia</p>
                                 </div>
                             </div>
                         </div>
